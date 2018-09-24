@@ -95,6 +95,7 @@ def examples_of_indexing(sequence):
     # ------------------------------------------------------------------
     print('\nLast item, then one past the last item (causes an error):')
     length = len(sequence)
+    print(length)
     print(sequence[length - 1])  # Last item in the sequence.
 
     # The following  sleep  gives enough time for the above  print
